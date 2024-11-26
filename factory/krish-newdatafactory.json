@@ -1,0 +1,9 @@
+{
+	"name": "krish-newdatafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f4044aaa-f1cd-4448-849d-31fef98e89b7",
+		"tenantId": "33f9420c-d75b-4c3f-b96f-3f65569c6f30"
+	}
+}
