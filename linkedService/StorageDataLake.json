@@ -1,0 +1,12 @@
+{
+	"name": "StorageDataLake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://storagedatalakefirst.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEEwNEIxRjFGLTBCMTYtNDAyRS1CRDhDLTQ1MjU2QTY5NDRCMF85MWM4NGVmZS03ZmUyLTRhNDUtYjg5Ny1lODUyY2JlODZmYWIiDQp9"
+		}
+	}
+}
