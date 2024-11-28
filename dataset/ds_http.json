@@ -10,9 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "kvramanan93/de/refs/heads/main/Data/AdventureWorks_Products.csv"
+				"relativeUrl": "/kvramanan93/de/refs/heads/main/Data/AdventureWorks_Products.csv"
 			},
 			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
