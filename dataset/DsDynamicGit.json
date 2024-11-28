@@ -1,19 +1,26 @@
 {
-	"name": "ds_http",
+	"name": "DsDynamicGit",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpLinkedService",
 			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_rel_url": {
+				"type": "String"
+			}
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "/kvramanan93/de/refs/heads/main/Data/AdventureWorks_Products.csv"
+				"relativeUrl": {
+					"value": "@dataset().p_rel_url",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": ",",
-			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
