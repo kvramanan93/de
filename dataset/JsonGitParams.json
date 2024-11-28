@@ -1,0 +1,32 @@
+{
+	"name": "JsonGitParams",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StorageDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "git.json",
+				"fileSystem": "params"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"p_rel_url": {
+					"type": "string"
+				},
+				"p_sink_dir": {
+					"type": "string"
+				},
+				"p_sink_file": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
