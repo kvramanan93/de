@@ -22,3 +22,10 @@ Blob vs datalake - In both acc we got containers  and within these we save our f
 datalake -> datafactory -> containers
 
 Pipeline - need source and destination 
+Link servicec - COnnection from source to destination
+
+First static pipeline -> Then dynamic pipeline to be created
+
+2 Link service - Github acc and storage acc - First task is to create link service(For efficient data solition)
+
+Dynamic pipelines(ETL)
